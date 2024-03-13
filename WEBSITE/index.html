@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href = "style.css" />
+    <link rel="stylesheet" href = "media.css" />
+</head>
+<body>
+    <nav id = "desktop-nav">
+        <div class="logo">Krishna Ganga</div>
+        <div>
+            <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id = "hamburger-nav">
+        <div class = "logo">Krishna Ganga</div>
+        <div class = "hamburger-menu">
+            <div class = "hamburger-icon" onclick = "toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class = "menu-links">
+                <li><a href = "#about" onclick="toggleMenu()">About</a></li>
+                <li><a href = "#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href = "#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href = "#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+          </div>
+    </nav>
+    <section id ="profile">
+        <div class = "pic-container">
+            <img src="/PHOTOS/avatar icon.jpg" alt="Krishna profile pic">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I`m</p>
+            <h1 class="title">Krishna Ganga</h1>
+            <p class="section_text_p2">Software & AI Engineer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2"
+                onclick="window.open('./PHOTOS/krishna.pdf')">Download Resume</button>
+                <button class="btn btn-color-1"
+                onclick="location.href='./#contact'">Contact Me</button>
+            </div>
+            <div id="socials-container">
+                <img
+                 src="./PHOTOS/linkedin.png" 
+                 alt="Linkedin Profile"
+                 class="icon" 
+                 onclick="location.href='https://www.linkedin.com/in/krishna-ganga-103b0726b/'"
+                />
+                <img
+                 src="./PHOTOS/github.png" 
+                 alt="github Profile"
+                 class="icon" 
+                 onclick="location.href='https://github.com/KrishnaG1703/PYTHON-Projects'"
+                />
+            </div>
+        </div>
+    </section>
+    <section id = 'about'>
+        <p class ='section_text_p1'>Get to Know More</p>
+        <h1 class ='title'>About Me</h1>
+        <div class="section-container">
+            <div class="about-details-container">
+                <div class = 'about-container'>
+                    <div class ="details-container">
+                        <img
+                            src = "PHOTOS/translate.png"
+                            alt = "Languages"
+                            class = 'icon'
+                            />
+                            <h3>Languages</h3>
+                            <p>English<br />Hindi<br />Tamil</p>
+                    </div>
+                    <div class = "details-container">
+                        <img
+                        src = "PHOTOS/education.png"
+                            alt = "education"
+                            class = 'icon'
+                            />
+                            <h3>Education</h3>
+                            <p>Bachelors of Engineering<br />AI/ML<br /> DS</p>
+                    </div>
+                    <div class = "details-container">
+                        <img 
+                            src = "PHOTOS/education.png"
+                            alt = "hobbies"
+                            class="icon"
+                            />
+                            <h3>Hobbies</h3>
+                            <p>Football<br />Reading Books<br />Working on new projects</p>
+                    </div>
+                </div>
+                <div class = 'text-container'>
+                    <p>
+                        Hello! Thank you for visiting my personal website. Here, you'll find a glimpse into my world, showcasing my skills, educational background, achievements, and hobbies.I am an enthusiastic student pursuing Computer Science, deeply passionate about the realms of Data Science, Machine Learning, and Artificial Intelligence.Through a combination of online certifications and various project involvements, I have gained hands-on experience, 
+                        providing me an strong foundation in applying cutting-edge technologies to tackle real-world challenges.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./PHOTOS/arrow.png" alt="Arrow icon" class ="icon arrow"
+            onclick="location.href='./#experience'"
+            />
+    </section>
+    <section id="experience">
+        <p class = "section_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="details1-container">
+                <h2 class="experience-sub-title">Frontend Development</h2>
+                <div class="article-container">
+                    <article>
+                        <img
+                            src="./PHOTOS/checkmark.png"
+                            alt= "Experience icon"
+                            class="icon"
+                        />
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img
+                            src="./PHOTOS/checkmark.png"
+                            alt= "Experience icon"
+                            class="icon"
+                        />
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img
+                            src="./PHOTOS/checkmark.png"
+                            alt= "Experience icon"
+                            class="icon"
+                        />
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="details1-container">
+                <h2 class="experience-sub-title">Artificial Intelligence</h2>
+                <div class="article-container">
+                    <article>
+                        <img
+                            src="./PHOTOS/checkmark.png"
+                            alt= "Experience icon"
+                            class="icon"
+                        />
+                        <div>
+                            <h3>Machine Learning</h3>
+                            <p>Advanced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img
+                            src="./PHOTOS/checkmark.png"
+                            alt= "Experience icon"
+                            class="icon"
+                        />
+                        <div>
+                            <h3>Computer Vision</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img
+                            src="./PHOTOS/checkmark.png"
+                            alt= "Experience icon"
+                            class="icon"
+                        />
+                        <div>
+                            <h3>Deep Learning</h3>
+                            <p>Basics</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="details1-container">
+                <h2 class="experience-sub-title">Data Science/Analysis</h2>
+                <div class="article-container">
+                    <article>
+                        <img
+                            src="./PHOTOS/checkmark.png"
+                            alt= "Experience icon"
+                            class="icon"
+                        />
+                        <div>
+                            <h3>Data Analytics</h3>
+                            <p>Advanced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img
+                            src="./PHOTOS/checkmark.png"
+                            alt= "Experience icon"
+                            class="icon"
+                        />
+                        <div>
+                            <h3>Data Visualization</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img
+                            src="./PHOTOS/checkmark.png"
+                            alt= "Experience icon"
+                            class="icon"
+                        />
+                        <div>
+                            <h3>Python Language</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <img src="./PHOTOS/arrow.png" alt="Arrow icon" class ="icon arrow"
+            onclick="location.href='./#projects'"
+            />
+    </section>
+    <section id="projects">
+        <p class="section_text_p1">Explore My</p>
+        <h2 class="title">Projects</h2>
+        <div class="projects-container">
+            <div class="project-readmore-container">
+                <img
+                    src="./PHOTOS/ml.jpeg"
+                    alt="MachineLearning img"
+                    class="project-image"
+                />
+              <h2> MACHINE LEARNING</h2>
+              <a href="machinelearning.html">
+                <button class="btn btn-color-2">Read More</button>
+                </a>    
+            </div>
+            <div class="project-readmore-container">
+                <img
+                    src="./PHOTOS/cv.png"
+                    alt="ComputerVision img"
+                    class="project-image"
+                />
+                <h2>COMPUTER VISION</h2>
+                <a href="computervision.html">
+                    <button class="btn btn-color-2">Read More</button>
+                    </a>
+            </div>
+            <div class="project-readmore-container">
+                <img
+                    src="./PHOTOS/frontend.jpeg"
+                    alt="Frontend img"
+                    class="project-image"
+                />
+                <h2>FRONTEND</h2>
+                <div class="btn-container">
+                    <a href="frontend.html">
+                    <button class="btn btn-color-2">Read More</button>
+                    </a>
+                </div> 
+            </div>
+        </div>
+        <img src="./PHOTOS/arrow.png" alt="Arrow icon" class ="icon arrow"
+            onclick="location.href='./#contact'"
+            />
+    </section>
+    <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">With Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img
+                    src="./PHOTOS/email.png"
+                    alt="Email icon"
+                    class="icon contact-info email-icon"
+                />
+                <p>
+                    <a href="mailto:exampleemail@gmail.com">Example@gmail.com
+                    </a>
+                </p>
+            </div>
+            <div class="contact-info-container">
+                <img
+                    src="./PHOTOS/linkedin.png"
+                    alt="LinkedIn icon"
+                    class="icon contact-info linked-icon"
+                />
+                <p>
+                    <a href="https://www.linkedin.com/in/krishna-ganga-103b0726b/">LinkedIn
+                    </a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Krishna Ganga.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
